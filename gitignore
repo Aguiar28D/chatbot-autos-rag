@@ -1,0 +1,23 @@
+# API keys / secrets
+.env
+secrets.json
+
+# FAISS index (large binary files)
+faiss_autos_index/
+
+# Dataset (not included in repo)
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
